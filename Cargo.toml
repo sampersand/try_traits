@@ -1,0 +1,12 @@
+[package]
+name = "try-traits"
+version = "0.1.0"
+authors = ["Sam Westerman <sam@sampersand.me>"]
+edition = "2018"
+publish= true
+description = "Alternatives to std lib traits that can fail."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/sampersand/try_traits"
+keywords = ["try", "traits", "fallible", "result", "tryfrom"]
+categories = ["no-std", "rust-patterns"]
