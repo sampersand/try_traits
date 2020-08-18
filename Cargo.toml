@@ -10,3 +10,8 @@ readme = "README.md"
 repository = "https://github.com/sampersand/try_traits"
 keywords = ["try", "traits", "fallible", "result", "tryfrom"]
 categories = ["no-std", "rust-patterns"]
+
+[features]
+nightly = []
+
+nightly_clamp = ["nightly"]
