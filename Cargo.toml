@@ -1,6 +1,6 @@
 [package]
 name = "try-traits"
-version = "0.1.01"
+version = "0.1.1"
 authors = ["Sam Westerman <sam@sampersand.me>"]
 edition = "2018"
 publish= true
