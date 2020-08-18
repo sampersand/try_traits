@@ -8,7 +8,7 @@
 //! Instead, these are meant to be used in APIs that require the ability to abstract over operations
 //! that could be fallible.
 //!
-//! # On Traits That Weren't Included
+//! # Why Some Traits Weren't Included
 //! There's a few reasons a core trait might not have been included:
 //! - They already completely support a form of failibility, and as such it wouldn't make sense to 
 //!   add a try version of them. (examples: `FromStr`).
@@ -34,4 +34,4 @@ pub mod hash;
 pub mod convert;
 pub mod default;
 pub mod iter;
-// Should we even include `slice`, `any`, or `future`?
+// Should we even include `slice`, `any`, `fmt`,	 or `future`?
